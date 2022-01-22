@@ -1,3 +1,9 @@
+This provides extensive and high level data exploration into the impact of coronavirus globally in terms of percentage population and vaccination. 
+Through queries I am able to ascertain the percentage of deaths and vaccinated individuals across the world and within Canada, drilling down to daily statistics. 
+Tables were also created to be converted to visuals. Database source; https://ourworldindata.org/covid-deaths
+
+
+
 select *
 from PortfolioProject..CovidDeaths$
 order by 3,4
